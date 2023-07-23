@@ -160,3 +160,4 @@ from PIL import Image
 myImage = Image.open(r"C:\Users\Livnat\Desktop\ron\temp\capture.jpg");
 myImage.show()
 #%%
+data_tot.to_pickle('data.pkl')
